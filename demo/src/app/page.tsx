@@ -269,7 +269,7 @@ export default function Page() {
                 </p>
               }
               cta={
-                <Link href="#">
+                <Link href="/bible-versions">
                   View Bible versions <ArrowNarrowRightIcon />
                 </Link>
               }
@@ -711,6 +711,7 @@ export default function Page() {
               price="Free"
               period=""
               subheadline={<p>Perfect for small churches and worship teams</p>}
+              badge="Most popular"
               features={[
                 'Unlimited displays',
                 'All presentation layouts',
@@ -730,7 +731,6 @@ export default function Page() {
               price="£5"
               period="/month"
               subheadline={<p>Help us cover server costs and get access to advanced features.</p>}
-              badge="Most popular"
               features={[
                 'Everything in Community',
                 'Advanced cloud sync',

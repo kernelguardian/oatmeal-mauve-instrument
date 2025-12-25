@@ -28,6 +28,7 @@ export default function AboutPage() {
               alt="Asish Binu Mathew"
               width={400}
               height={400}
+              className="rounded-full object-cover"
               unoptimized
             />
           </div>
