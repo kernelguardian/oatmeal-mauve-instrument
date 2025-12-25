@@ -60,9 +60,9 @@ export default function RootLayout({
             id="navbar"
             links={
               <>
-                <NavbarLink href="#features">Features</NavbarLink>
-                <NavbarLink href="#pricing">Pricing</NavbarLink>
-                <NavbarLink href="#faqs">FAQs</NavbarLink>
+                <NavbarLink href="/#features">Features</NavbarLink>
+                <NavbarLink href="/#pricing">Pricing</NavbarLink>
+                <NavbarLink href="/#faqs">FAQs</NavbarLink>
                 <NavbarLink href="/about">About Me</NavbarLink>
                 <NavbarLink href="/docs">Documentation</NavbarLink>
               </>
