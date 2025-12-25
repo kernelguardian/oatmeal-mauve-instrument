@@ -487,6 +487,54 @@ export default function Page() {
                 </Link>
               }
             />
+            <Feature
+              demo={
+                <Screenshot wallpaper="purple" placement="bottom-right">
+                  <Image
+                    src="/img/screenshots/scrn2.png"
+                    alt=""
+                    className="bg-white/75"
+                    width={1000}
+                    height={800}
+                  />
+                </Screenshot>
+              }
+              headline="Overlay for Broadcasting"
+              subheadline={
+                <p>
+                  Enable overlay mode to seamlessly integrate with your live streaming or broadcasting software. Display lyrics and scriptures over a transparent background.
+                </p>
+              }
+              cta={
+                <Link href="#">
+                  Learn more <ArrowNarrowRightIcon />
+                </Link>
+              }
+            />
+            <Feature
+              demo={
+                <Screenshot wallpaper="blue" placement="bottom-left">
+                  <Image
+                    src="/img/screenshots/scrn6.png"
+                    alt=""
+                    className="bg-white/75"
+                    width={1000}
+                    height={800}
+                  />
+                </Screenshot>
+              }
+              headline="Auto Transliteration & Song Updates"
+              subheadline={
+                <p>
+                  Automatically transliterate song lyrics between languages and keep your song database up-to-date with background updates for new songs.
+                </p>
+              }
+              cta={
+                <Link href="#">
+                  Learn more <ArrowNarrowRightIcon />
+                </Link>
+              }
+            />
           </>
         }
       />
@@ -679,9 +727,9 @@ export default function Page() {
             />
             <Plan
               name="Pro"
-              price="Free"
-              period=""
-              subheadline={<p>Advanced features for larger congregations</p>}
+              price="£5"
+              period="/month"
+              subheadline={<p>Help us cover server costs and get access to advanced features.</p>}
               badge="Most popular"
               features={[
                 'Everything in Community',
@@ -694,7 +742,7 @@ export default function Page() {
               ]}
               cta={
                 <ButtonLink href="#" size="lg">
-                  Download now
+                  Choose Pro
                 </ButtonLink>
               }
             />

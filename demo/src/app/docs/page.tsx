@@ -23,7 +23,7 @@ export default function DocsPage() {
             Quick Start
           </h2>
           <div className="prose prose-mauve dark:prose-invert max-w-none">
-            <ol className="space-y-4">
+            <ol className="space-y-4 text-mauve-700 dark:text-mauve-300">
               <li>
                 <strong>Download Lighthouse</strong> for your operating system from our downloads page
               </li>
