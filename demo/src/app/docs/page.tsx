@@ -43,6 +43,66 @@ export default function DocsPage() {
           </div>
         </section>
 
+        {/* Key Features */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-display font-semibold tracking-tight text-mauve-950 mb-6 dark:text-white">
+            Key Features
+          </h2>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <div className="rounded-lg border border-mauve-200 bg-white p-6 dark:border-mauve-800 dark:bg-mauve-900">
+              <h3 className="text-lg font-semibold text-mauve-950 mb-3 dark:text-white">
+                Multilingual Bible Support
+              </h3>
+              <p className="text-mauve-700 dark:text-mauve-300">
+                Display up to 5 Bible translations simultaneously. Includes 13+ versions: Tamil, Malayalam, KJV, ESV,
+                Thai, Chinese Union, Amplified, Xhosa, and more.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-mauve-200 bg-white p-6 dark:border-mauve-800 dark:bg-mauve-900">
+              <h3 className="text-lg font-semibold text-mauve-950 mb-3 dark:text-white">Schedule Management</h3>
+              <p className="text-mauve-700 dark:text-mauve-300">
+                Plan your worship services in advance. Create multiple schedules, add songs and Bible passages, export
+                to PDF, and share with your team.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-mauve-200 bg-white p-6 dark:border-mauve-800 dark:bg-mauve-900">
+              <h3 className="text-lg font-semibold text-mauve-950 mb-3 dark:text-white">Remote Control</h3>
+              <p className="text-mauve-700 dark:text-mauve-300">
+                Control presentations from any device on your network. Share viewer URLs with congregation and control
+                panel URLs with team members. Password protected.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-mauve-200 bg-white p-6 dark:border-mauve-800 dark:bg-mauve-900">
+              <h3 className="text-lg font-semibold text-mauve-950 mb-3 dark:text-white">Custom Layouts & Themes</h3>
+              <p className="text-mauve-700 dark:text-mauve-300">
+                Separate Bible and Song layouts. Customize fonts, backgrounds (including video), add logo overlays with
+                adjustable opacity, and create themes that match your church&apos;s identity.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-mauve-200 bg-white p-6 dark:border-mauve-800 dark:bg-mauve-900">
+              <h3 className="text-lg font-semibold text-mauve-950 mb-3 dark:text-white">
+                Multi-Display Support
+              </h3>
+              <p className="text-mauve-700 dark:text-mauve-300">
+                Connect unlimited displays. Configure different outputs for sanctuary, overflow rooms, lobby screens,
+                and confidence monitors - all from one computer.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-mauve-200 bg-white p-6 dark:border-mauve-800 dark:bg-mauve-900">
+              <h3 className="text-lg font-semibold text-mauve-950 mb-3 dark:text-white">Song Database</h3>
+              <p className="text-mauve-700 dark:text-mauve-300">
+                Searchable song library with support for multiple languages. Add songs with transliterations, organize
+                by ID, and quickly find what you need during services.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Installation Guides */}
         <section className="mb-16">
           <h2 className="text-2xl font-display font-semibold tracking-tight text-mauve-950 mb-6 dark:text-white">
