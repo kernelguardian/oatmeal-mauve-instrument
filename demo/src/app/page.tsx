@@ -247,7 +247,7 @@ export default function Page() {
                     height={1300}
                   />
                   <Image
-                    src="/img/screenshots/scrn5.png"
+                    src="/img/screenshots/scrn1.png"
                     alt=""
                     className="bg-white/75 max-xl:hidden dark:hidden"
                     width={1800}
@@ -299,35 +299,35 @@ export default function Page() {
                     height={660}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-right-1800-top-660.webp"
+                    src="/img/screenshots/scrn1.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden max-sm:hidden lg:hidden"
                     width={1800}
                     height={660}
                   />
                   <Image
-                    src="/img/screenshots/1-right-1300-top-1300.webp"
+                    src="/img/screenshots/scrn2.png"
                     alt=""
                     className="bg-white/75 max-lg:hidden xl:hidden dark:hidden"
                     width={1300}
                     height={1300}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-right-1300-top-1300.webp"
+                    src="/img/screenshots/scrn2.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden max-lg:hidden xl:hidden"
                     width={1300}
                     height={1300}
                   />
                   <Image
-                    src="/img/screenshots/1-right-1800-top-1250.webp"
+                    src="/img/screenshots/scrn4.png"
                     alt=""
                     className="bg-white/75 max-xl:hidden dark:hidden"
                     width={1800}
                     height={1250}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-right-1800-top-1250.webp"
+                    src="/img/screenshots/scrn3.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden max-xl:hidden"
                     width={1800}
