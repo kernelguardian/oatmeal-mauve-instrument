@@ -13,7 +13,7 @@ interface DownloadButtonProps {
 export function DownloadButton({ variant = 'primary', size = 'md', children, className = '' }: DownloadButtonProps) {
   const [isOpen, setIsOpen] = useState(false)
 
-  const baseClasses = 'inline-flex items-center justify-center gap-2 rounded-full border font-semibold shadow-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2'
+  const baseClasses = 'inline-flex items-center justify-center gap-2 rounded-full border font-semibold shadow-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer'
 
   const variantClasses = {
     primary: 'border-transparent bg-mauve-950 text-white hover:bg-mauve-800 focus-visible:outline-mauve-950 dark:bg-white dark:text-mauve-950 dark:hover:bg-mauve-50',

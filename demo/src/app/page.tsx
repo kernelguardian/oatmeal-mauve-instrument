@@ -50,7 +50,7 @@ export default function Page() {
                 className="bg-white/75 md:hidden dark:hidden"
               />
               <Image
-                src="/img/screenshots/1-color-mauve-left-1670-top-1408.webp"
+                src="/img/screenshots/scrn1.png"
                 alt=""
                 width={1670}
                 height={1408}
@@ -350,56 +350,56 @@ export default function Page() {
               demo={
                 <Screenshot wallpaper="green" placement="bottom-right">
                   <Image
-                    src="/img/screenshots/1-left-1000-top-800.webp"
+                    src="/img/screenshots/scrn5.png"
                     alt=""
                     className="bg-white/75 sm:hidden dark:hidden"
                     width={1000}
                     height={800}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-left-1000-top-800.webp"
+                    src="/img/screenshots/scrn5.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden sm:hidden"
                     width={1000}
                     height={800}
                   />
                   <Image
-                    src="/img/screenshots/1-left-1800-top-660.webp"
+                    src="/img/screenshots/scrn5.png"
                     alt=""
                     className="bg-white/75 max-sm:hidden lg:hidden dark:hidden"
                     width={1800}
                     height={660}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-left-1800-top-660.webp"
+                    src="/img/screenshots/scrn5.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden max-sm:hidden lg:hidden"
                     width={1800}
                     height={660}
                   />
                   <Image
-                    src="/img/screenshots/1-left-1300-top-1300.webp"
+                    src="/img/screenshots/scrn5.png"
                     alt=""
                     className="bg-white/75 max-lg:hidden xl:hidden dark:hidden"
                     width={1300}
                     height={1300}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-left-1300-top-1300.webp"
+                    src="/img/screenshots/scrn5.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden max-lg:hidden xl:hidden"
                     width={1300}
                     height={1300}
                   />
                   <Image
-                    src="/img/screenshots/1-left-1800-top-1250.webp"
+                    src="/img/screenshots/scrn5.png"
                     alt=""
                     className="bg-white/75 max-xl:hidden dark:hidden"
                     width={1800}
                     height={1250}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-left-1800-top-1250.webp"
+                    src="/img/screenshots/scrn6.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden max-xl:hidden"
                     width={1800}
@@ -421,56 +421,56 @@ export default function Page() {
               demo={
                 <Screenshot wallpaper="brown" placement="bottom-left">
                   <Image
-                    src="/img/screenshots/1-right-1000-top-800.webp"
+                    src="/img/screenshots/scrn5.png"
                     alt=""
                     className="bg-white/75 sm:hidden dark:hidden"
                     width={1000}
                     height={800}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-right-1000-top-800.webp"
+                    src="/img/screenshots/scrn4.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden sm:hidden"
                     width={1000}
                     height={800}
                   />
                   <Image
-                    src="/img/screenshots/1-right-1800-top-660.webp"
+                    src="/img/screenshots/scrn4.png"
                     alt=""
                     className="bg-white/75 max-sm:hidden lg:hidden dark:hidden"
                     width={1800}
                     height={660}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-right-1800-top-660.webp"
+                    src="/img/screenshots/scrn4.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden max-sm:hidden lg:hidden"
                     width={1800}
                     height={660}
                   />
                   <Image
-                    src="/img/screenshots/1-right-1300-top-1300.webp"
+                    src="/img/screenshots/scrn4.png"
                     alt=""
                     className="bg-white/75 max-lg:hidden xl:hidden dark:hidden"
                     width={1300}
                     height={1300}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-right-1300-top-1300.webp"
+                    src="/img/screenshots/scrn4.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden max-lg:hidden xl:hidden"
                     width={1300}
                     height={1300}
                   />
                   <Image
-                    src="/img/screenshots/1-right-1800-top-1250.webp"
+                    src="/img/screenshots/scrn4.png"
                     alt=""
                     className="bg-white/75 max-xl:hidden dark:hidden"
                     width={1800}
                     height={1250}
                   />
                   <Image
-                    src="/img/screenshots/1-color-mauve-right-1800-top-1250.webp"
+                    src="/img/screenshots/scrn4.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden max-xl:hidden"
                     width={1800}
@@ -492,7 +492,7 @@ export default function Page() {
               demo={
                 <Screenshot wallpaper="purple" placement="bottom-right">
                   <Image
-                    src="/img/screenshots/scrn2.png"
+                    src="/img/screenshots/scrn4.png"
                     alt=""
                     className="bg-white/75"
                     width={1000}
