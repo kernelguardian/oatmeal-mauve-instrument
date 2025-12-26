@@ -13,6 +13,7 @@ import { Plan, PricingMultiTier } from '@/components/sections/pricing-multi-tier
 import { Stat, StatsWithGraph } from '@/components/sections/stats-with-graph'
 import { Testimonial, TestimonialThreeColumnGrid } from '@/components/sections/testimonials-three-column-grid'
 import { DownloadButton } from '@/components/DownloadButton'
+import { ImageLightbox } from '@/components/ImageLightbox'
 import Image from 'next/image'
 
 export default function Page() {
@@ -205,58 +206,58 @@ export default function Page() {
             <Feature
               demo={
                 <Screenshot wallpaper="purple" placement="bottom-right">
-                  <Image
+                  <ImageLightbox
                     src="/img/screenshots/scrn2.png"
-                    alt=""
+                    alt="Multilingual Bible Support"
                     className="bg-white/75 sm:hidden dark:hidden"
                     width={1000}
                     height={800}
                   />
-                  <Image
+                  <ImageLightbox
                     src="/img/screenshots/scrn2.png"
-                    alt=""
+                    alt="Multilingual Bible Support"
                     className="bg-black/75 not-dark:hidden sm:hidden"
                     width={1000}
                     height={800}
                   />
-                  <Image
+                  <ImageLightbox
                     src="/img/screenshots/scrn3.png"
-                    alt=""
+                    alt="Multilingual Bible Support"
                     className="bg-white/75 max-sm:hidden lg:hidden dark:hidden"
                     width={1800}
                     height={660}
                   />
-                  <Image
+                  <ImageLightbox
                     src="/img/screenshots/scrn3.png"
-                    alt=""
+                    alt="Multilingual Bible Support"
                     className="bg-black/75 not-dark:hidden max-sm:hidden lg:hidden"
                     width={1800}
                     height={660}
                   />
-                  <Image
+                  <ImageLightbox
                     src="/img/screenshots/scrn3.png"
-                    alt=""
+                    alt="Multilingual Bible Support"
                     className="bg-white/75 max-lg:hidden xl:hidden dark:hidden"
                     width={1300}
                     height={1300}
                   />
-                  <Image
+                  <ImageLightbox
                     src="/img/screenshots/scrn4.png"
-                    alt=""
+                    alt="Multilingual Bible Support"
                     className="bg-black/75 not-dark:hidden max-lg:hidden xl:hidden"
                     width={1300}
                     height={1300}
                   />
-                  <Image
+                  <ImageLightbox
                     src="/img/screenshots/scrn1.png"
-                    alt=""
+                    alt="Multilingual Bible Support"
                     className="bg-white/75 max-xl:hidden dark:hidden"
                     width={1800}
                     height={1250}
                   />
-                  <Image
+                  <ImageLightbox
                     src="/img/screenshots/scrn6.png"
-                    alt=""
+                    alt="Multilingual Bible Support"
                     className="bg-black/75 not-dark:hidden max-xl:hidden"
                     width={1800}
                     height={1250}
