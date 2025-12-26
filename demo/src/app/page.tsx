@@ -58,14 +58,14 @@ export default function Page() {
                 className="bg-black/75 not-dark:hidden md:hidden"
               />
               <Image
-                src="/img/screenshots/1-left-2000-top-1408.webp"
+                src="/img/screenshots/scrn1.png"
                 alt=""
                 width={2000}
                 height={1408}
                 className="bg-white/75 max-md:hidden dark:hidden"
               />
               <Image
-                src="/img/screenshots/1-color-mauve-left-2000-top-1408.webp"
+                src="/img/screenshots/scrn1.png"
                 alt=""
                 width={2000}
                 height={1408}
@@ -207,56 +207,56 @@ export default function Page() {
               demo={
                 <Screenshot wallpaper="purple" placement="bottom-right">
                   <ImageLightbox
-                    src="/img/screenshots/scrn2.png"
+                    src="/img/screenshots/scrn14.png"
                     alt="Multilingual Bible Support"
                     className="bg-white/75 sm:hidden dark:hidden"
                     width={1000}
                     height={800}
                   />
                   <ImageLightbox
-                    src="/img/screenshots/scrn2.png"
+                    src="/img/screenshots/scrn14.png"
                     alt="Multilingual Bible Support"
                     className="bg-black/75 not-dark:hidden sm:hidden"
                     width={1000}
                     height={800}
                   />
                   <ImageLightbox
-                    src="/img/screenshots/scrn3.png"
+                    src="/img/screenshots/scrn14.png"
                     alt="Multilingual Bible Support"
                     className="bg-white/75 max-sm:hidden lg:hidden dark:hidden"
                     width={1800}
                     height={660}
                   />
                   <ImageLightbox
-                    src="/img/screenshots/scrn3.png"
+                    src="/img/screenshots/scrn14.png"
                     alt="Multilingual Bible Support"
                     className="bg-black/75 not-dark:hidden max-sm:hidden lg:hidden"
                     width={1800}
                     height={660}
                   />
                   <ImageLightbox
-                    src="/img/screenshots/scrn3.png"
+                    src="/img/screenshots/scrn14.png"
                     alt="Multilingual Bible Support"
                     className="bg-white/75 max-lg:hidden xl:hidden dark:hidden"
                     width={1300}
                     height={1300}
                   />
                   <ImageLightbox
-                    src="/img/screenshots/scrn4.png"
+                    src="/img/screenshots/scrn14.png"
                     alt="Multilingual Bible Support"
                     className="bg-black/75 not-dark:hidden max-lg:hidden xl:hidden"
                     width={1300}
                     height={1300}
                   />
                   <ImageLightbox
-                    src="/img/screenshots/scrn1.png"
+                    src="/img/screenshots/scrn14.png"
                     alt="Multilingual Bible Support"
                     className="bg-white/75 max-xl:hidden dark:hidden"
                     width={1800}
                     height={1250}
                   />
                   <ImageLightbox
-                    src="/img/screenshots/scrn6.png"
+                    src="/img/screenshots/scrn14.png"
                     alt="Multilingual Bible Support"
                     className="bg-black/75 not-dark:hidden max-xl:hidden"
                     width={1800}
@@ -329,7 +329,7 @@ export default function Page() {
                     height={1250}
                   />
                   <Image
-                    src="/img/screenshots/scrn3.png"
+                    src="/img/screenshots/scrn12.png"
                     alt=""
                     className="bg-black/75 not-dark:hidden max-xl:hidden"
                     width={1800}
