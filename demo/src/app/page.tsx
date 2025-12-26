@@ -12,6 +12,7 @@ import { HeroLeftAlignedWithDemo } from '@/components/sections/hero-left-aligned
 import { Plan, PricingMultiTier } from '@/components/sections/pricing-multi-tier'
 import { Stat, StatsWithGraph } from '@/components/sections/stats-with-graph'
 import { Testimonial, TestimonialThreeColumnGrid } from '@/components/sections/testimonials-three-column-grid'
+import { DownloadButton } from '@/components/DownloadButton'
 import Image from 'next/image'
 
 export default function Page() {
@@ -29,9 +30,9 @@ export default function Page() {
         }
         cta={
           <div className="flex items-center gap-4">
-            <ButtonLink href="#" size="lg">
+            <DownloadButton size="lg">
               Download for free
-            </ButtonLink>
+            </DownloadButton>
 
             <PlainButtonLink href="#" size="lg">
               See it in action <ArrowNarrowRightIcon />
@@ -721,9 +722,9 @@ export default function Page() {
                 'Community support',
               ]}
               cta={
-                <SoftButtonLink href="#" size="lg">
+                <DownloadButton variant="secondary" size="lg">
                   Download now
-                </SoftButtonLink>
+                </DownloadButton>
               }
             />
             <Plan
@@ -760,9 +761,9 @@ export default function Page() {
         }
         cta={
           <div className="flex items-center gap-4">
-            <ButtonLink href="#" size="lg">
+            <DownloadButton size="lg">
               Download Lighthouse
-            </ButtonLink>
+            </DownloadButton>
 
             <PlainButtonLink href="#" size="lg">
               Watch tutorial <ChevronIcon />

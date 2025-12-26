@@ -4,6 +4,7 @@ import { Main } from '@/components/elements/main'
 import { GitHubIcon } from '@/components/icons/social/github-icon'
 import { XIcon } from '@/components/icons/social/x-icon'
 import { YouTubeIcon } from '@/components/icons/social/youtube-icon'
+import { DownloadButton } from '@/components/DownloadButton'
 import {
   FooterCategory,
   FooterLink,
@@ -70,24 +71,24 @@ export default function RootLayout({
             logo={
               <NavbarLogo href="/">
                 <Image
-                  src="/img/logos/oatmeal-instrument-color-mauve-950.svg"
+                  src="/img/logos/lighthouse-instrument-color-mauve-950.svg"
                   alt="Lighthouse"
                   className="dark:hidden"
-                  width={85}
+                  width={110}
                   height={28}
                 />
                 <Image
-                  src="/img/logos/oatmeal-instrument-color-white.svg"
+                  src="/img/logos/lighthouse-instrument-color-white.svg"
                   alt="Lighthouse"
                   className="not-dark:hidden"
-                  width={85}
+                  width={110}
                   height={28}
                 />
               </NavbarLogo>
             }
             actions={
               <>
-                <ButtonLink href="#">Download</ButtonLink>
+                <DownloadButton>Download</DownloadButton>
               </>
             }
           />
