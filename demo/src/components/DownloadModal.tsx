@@ -27,7 +27,7 @@ export function DownloadModal({ isOpen, onClose }: DownloadModalProps) {
       />
 
       {/* Modal */}
-      <div className="relative bg-white dark:bg-mauve-900 rounded-2xl shadow-2xl max-w-2xl w-full p-8 animate-in fade-in zoom-in duration-200">
+      <div className="relative bg-white dark:bg-mauve-900 rounded-2xl shadow-2xl max-w-5xl w-full p-8 animate-in fade-in zoom-in duration-200">
         {/* Close button */}
         <button
           onClick={onClose}
