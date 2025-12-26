@@ -74,14 +74,14 @@ export default function RootLayout({
                   src="/img/logos/lighthouse-instrument-color-mauve-950.svg"
                   alt="Lighthouse"
                   className="dark:hidden"
-                  width={110}
+                  width={150}
                   height={28}
                 />
                 <Image
                   src="/img/logos/lighthouse-instrument-color-white.svg"
                   alt="Lighthouse"
                   className="not-dark:hidden"
-                  width={110}
+                  width={150}
                   height={28}
                 />
               </NavbarLogo>

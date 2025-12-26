@@ -1,3 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="110" height="28" fill="white" viewBox="0 0 110 28">
-  <text x="0" y="22" font-family="'Instrument Serif', serif" font-size="24" font-weight="600" fill="white">Lighthouse</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="28" fill="white" viewBox="0 0 150 28">
+  <!-- Lighthouse tower icon -->
+  <g transform="translate(0, 3)">
+    <!-- Tower base -->
+    <rect x="8" y="16" width="8" height="6" fill="white"/>
+    <!-- Tower body -->
+    <polygon points="7,16 17,16 15,6 9,6" fill="white"/>
+    <!-- Light beam -->
+    <path d="M 12,2 L 9,6 L 15,6 Z" fill="white" opacity="0.8"/>
+    <!-- Light rays -->
+    <line x1="12" y1="2" x2="4" y2="0" stroke="white" stroke-width="1" opacity="0.5"/>
+    <line x1="12" y1="2" x2="20" y2="0" stroke="white" stroke-width="1" opacity="0.5"/>
+  </g>
+  <!-- Text with more spacing -->
+  <text x="28" y="22" font-family="'Instrument Serif', serif" font-size="24" font-weight="600" fill="white">Lighthouse</text>
 </svg>
