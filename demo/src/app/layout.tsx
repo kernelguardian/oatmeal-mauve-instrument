@@ -154,6 +154,14 @@ export default function RootLayout({
               </>
             }
           />
+          <Script id="zsiq-inline-script" strategy="afterInteractive">
+            {`window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}`}
+          </Script>
+          <Script
+            id="zsiqscript"
+            src="https://salesiq.zohopublic.eu/widget?wc=siq2dc0f9ce51a56c9bdfcaa69bf662a900298eaea058e8c1be8e92798495830b44"
+            strategy="afterInteractive"
+          />
         </>
       </body>
     </html>
