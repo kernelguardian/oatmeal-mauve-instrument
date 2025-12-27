@@ -1,4 +1,5 @@
 import Script from "next/script";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { ButtonLink, PlainButtonLink } from '@/components/elements/button'
 import { Main } from '@/components/elements/main'
 import { GitHubIcon } from '@/components/icons/social/github-icon'
@@ -47,19 +48,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
 
-        {/* Google Analytics */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-4PC77XRYHT"
-          strategy="afterInteractive"
-        />
-        <Script id="ga-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-4PC77XRYHT');
-          `}
-        </Script>
+        
       </head>
       <body>
         <>
@@ -170,6 +159,7 @@ export default function RootLayout({
             strategy="afterInteractive"
           />
         </>
+        <GoogleAnalytics gaId="G-4PC77XRYHT" />
       </body>
     </html>
   )
