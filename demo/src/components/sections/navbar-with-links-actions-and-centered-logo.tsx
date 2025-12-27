@@ -1,3 +1,5 @@
+'use client'
+
 import { ElDialog, ElDialogPanel } from '@tailwindplus/elements/react'
 import { clsx } from 'clsx/lite'
 import Link from 'next/link'
@@ -9,9 +11,17 @@ export function NavbarLink({
   className,
   ...props
 }: { href: string } & Omit<ComponentProps<'a'>, 'href'>) {
+  const handleClick = () => {
+    const dialog = document.getElementById('mobile-menu') as HTMLDialogElement
+    if (dialog) {
+      dialog.close()
+    }
+  }
+
   return (
     <Link
       href={href}
+      onClick={handleClick}
       className={clsx(
         'group inline-flex items-center justify-between gap-2 text-3xl/10 font-medium text-mauve-950 lg:text-sm/7 dark:text-white',
         className,

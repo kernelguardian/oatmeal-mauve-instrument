@@ -14,7 +14,9 @@ export default function AboutPage() {
           <div className="col-span-2 flex flex-col gap-6">
             <Heading>About Me</Heading>
             <Text size="lg" className="flex flex-col gap-4">
-              I&apos;m Asish Binu Mathew, a Product Engineer based in Glasgow with 3 years of experience and over 10 clients worldwide.
+              Hi I&apos;m Asish Binu Mathew, Lighthouse is my personal project that I have been working on in my free time to help churches and worship teams present Bible verses and worship songs with confidence. 
+
+              I have worked on different ways to build this software, start
             </Text>
             <div className="mt-4">
               <Link href="https://www.asish.uk/" target="_blank">

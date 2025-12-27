@@ -10,7 +10,9 @@ export function NavbarLink({
 }: { href: string } & Omit<ComponentProps<'a'>, 'href'>) {
   const handleClick = () => {
     const dialog = document.getElementById('mobile-menu') as HTMLDialogElement
-    dialog?.close()
+    if (dialog) {
+      dialog.close()
+    }
   }
 
   return (
